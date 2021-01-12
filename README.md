@@ -81,6 +81,11 @@ This ansible role deploys msmtp as a mailer for Debian, Ubuntu, Arch & Alpine Li
 
          `msmtprc_mode : 0644`
 
+  - `From` header
+     - *msmtp_set_from_header:* value of `set_from_header` configuratin option, no default
+
+         `msmtp_set_from_header : on`
+
 ## Configure
 You can configure your variables in ansible with one of the following
 
